@@ -4,7 +4,6 @@ class Solution {
         int[] arr = new int[h];
         for(int i=0;i<n.length();i++){
             arr[i]=n.charAt(i)-'0';
-            System.out.println(arr[i]);
         }
         Arrays.sort(arr);
         return arr[h-1];
